@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 75px;
+    font-weight: lighter;
+}
+h2{
+    text-align: center;
+    font-weight:lighter;
+}
+ul{
+    text-align: right;   
+    padding: 20px;
+}
+li{
+    display: inline;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+img{
+    width:40ex;
+    height:40ex;
+
+}
+.grid-container{
+    display: grid;
+    grid-column-gap:10ex;
+    grid-row-gap:10ex;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+
+}
+
+div{
+    margin-top: 100px;
+    display: inline;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right:5px
+    
+}
+p{
+
+    text-align:center;
+
+}
+.Price{
+    float: right;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40ex;
+}
+
+
+
