@@ -9,7 +9,8 @@ h1{
 }
 h2{
     text-align: center;
-    font-weight:lighter;
+    font-weight:normal;
+    font-style:italic;
 }
 ul{
     text-align: right;   
@@ -23,7 +24,8 @@ li{
 img{
     width:40ex;
     height:40ex;
-
+    border-radius: 5ex;
+    border-bottom: black;
 }
 .grid-container{
     display: grid;
@@ -37,23 +39,31 @@ img{
 div{
     margin-top: 100px;
     display: inline;
-    padding: 10px;
-    margin-left: 5px;
+    padding: 5px;
+    margin-left: 50px;
     margin-right:5px
     
 }
 p{
 
-    text-align:center;
+    text-align:left;
+    Padding:5px;
 
 }
 .Price{
     float: right;
+    font-style:italic;
+    font-weight:lighter;
 
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   width: 40ex;
+  transition:0.3s;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(119, 61, 61, 0.801);
+
 }
 
 
