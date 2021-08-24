@@ -1,7 +1,16 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-}
+    color: #222;
+    background: #fff;
+  }
+  body.dark-theme {
+    color: #eee;
+    background: #121212;
+  }
+ #btntoggle{
+     float:right;
+ }
 h1{
     text-align: center;
     font-size: 75px;
@@ -12,20 +21,11 @@ h2{
     font-weight:normal;
     font-style:italic;
 }
-ul{
-    text-align: right;   
-    padding: 20px;
-}
-li{
-    display: inline;
-    padding: 0 10px 0 10px;
-    text-decoration: none;
-}
+
 img{
     width:40ex;
     height:40ex;
-    border-radius: 5ex;
-    border-bottom: black;
+    border-bottom: 0.2ex solid black;
 }
 .grid-container{
     display: grid;
