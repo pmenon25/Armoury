@@ -10,11 +10,13 @@ body{
   }
  #btntoggle{
      float:right;
+     
  }
 h1{
     text-align: center;
     font-size: 75px;
     font-weight: lighter;
+    padding-left: 4ex;
 }
 h2{
     text-align: center;
